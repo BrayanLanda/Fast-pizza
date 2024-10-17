@@ -2,11 +2,11 @@ import { Link } from "react-router-dom"
 
 function Header() {
   return (
-    <Header>
+    <header>
       <Link to="/">Fast React Pizza Co.</Link>
 
       <p>Landa</p>
-    </Header>
+    </header>
   )
 }
 
