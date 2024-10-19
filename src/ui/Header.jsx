@@ -8,7 +8,7 @@ function Header() {
 
       <SearchOrder />
 
-      <p>Landa</p>
+      <p className="text-tx text-red-800">Landa</p>
     </header>
   )
 }
