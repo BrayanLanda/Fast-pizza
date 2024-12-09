@@ -2,6 +2,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { formatCurrency } from "../../utils/helpers";
 import { addItem, getCurrentQuantityById } from "../cart/cartSlice";
 import Button from "../../ui/Button";
+import UpdateItemQuantity from "../cart/UpdateItemQuantity";
+import DeleteItem from "../cart/DeleteItem";
 
 function MenuItem({ pizza }) {
   const dispatch = useDispatch();
